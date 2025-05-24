@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conocé tu mejor rutina</title>
+    <link href="css/estilos.css" rel="stylesheet">
+    <script src="js/recomienda.js" defer></script>
+</head>
+<body>
+    <h1>Conocé qué rutina de gimnasio te conviene</h1>
+    
+    <h2>¿Cuántos días podés entrenar?</h2>
+    <input id="dias" min="3" max="6" placeholder="De 3 a 6">
+    
+    <h2>¿Cuál es tu objetivo principal?</h2>
+    <select id="objetivo">
+        <option value="fuerza">Fuerza</option>
+        <option value="hipertrofia">Hipertrofia</option>
+        <option value="salud">Salud en general</option>
+    </select>
+    
+    <button id="recomendar">Ver rutina</button>
+    <div id="resultado"></div>
+    <img src="logo.gif">
+</body>
+</html>
